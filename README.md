@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dev-Stream
 
-## Getting Started
+**Note:** This project is currently under active development. Features and implementations are subject to change.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Dev-Stream is a specialized video streaming platform designed for developers. It offers a dedicated space where developers can share technical knowledge through **live streams, tutorials, and real-time coding sessions**. The platform aims to foster **collaboration and engagement** within the developer community.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🚀 **Live Coding Streams** – Broadcast real-time coding sessions with minimal latency.
+- 💬 **Real-Time Chat** – Integrated WebSocket-based chat for instant interaction between viewers and streamers.
+- 💰 **Superchat Donations** – Viewers can support streamers by sending highlighted messages during live sessions.
+- 📂 **Content Management** – Upload, tag, and organize videos while accessing engagement analytics.
+- 🔒 **Secure Payment Integration** – Safe and reliable processing of superchat donations and subscriptions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technology Stack
 
-## Learn More
+- **Frontend:** Next (Web) & Flutter (Mobile) for a seamless user experience.
+- **Backend:** Ingress for request routing and load balancing.
+- **Database:** MySQL for structured and scalable data management.
+- **Cloud & Storage:** AWS S3 for video storage and CDN for optimized content delivery.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation & Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Since the project is still under development, detailed setup instructions will be added soon. Stay tuned for deployment guides and contribution guidelines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions! Check back later for contribution guidelines and issue tracking.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📢 Stay Updated
+
+Follow the repository for the latest updates as we continue to build **Dev-Stream** into a robust platform for developers. 🚀
+
+---
+
+## Screenshots of the project so far
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
